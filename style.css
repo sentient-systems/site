@@ -1,21 +1,44 @@
+html{
+    font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+}
 img {
     max-width: 100%;
     max-height: 100%;
 }
 
-p {
+h1 {
 	text-align: center;
-	font-family: "Lucida Console", Monaco, monospace;
+	
 }
 
 #main{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: center;
     height: auto; 
-    width: auto; 
-    max-width: 60%;
-    position: fixed;
-  	top: 50%;
-  	left: 50%;
-  	transform: translate(-50%, -50%);
+    width: auto;  
 }
 
+#logo{
+    margin: auto;
+    max-width: 40%;
+    align-self: center;
+}
+
+#content{
+    margin: auto;
+    align-self: center;
+    max-width: 50%;
+}
+
+#contactDetails{
+    align-self: center;
+    text-decoration: none;
+    max-width: 50%;
+}
+
+#contactDetails > #phone{
+    text-decoration: none;
+}
 
