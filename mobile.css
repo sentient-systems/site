@@ -1,0 +1,44 @@
+html{
+    font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+h1 {
+	text-align: center;
+	
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: center;
+    height: auto; 
+    width: auto;  
+}
+
+#logo{
+    margin: auto;
+    max-width: 70%;
+    align-self: center;
+}
+
+#content{
+    margin: auto;
+    align-self: center;
+    max-width: 80%;
+}
+
+#contactDetails{
+    align-self: center;
+    text-decoration: none;
+    max-width: 80%;
+}
+
+#contactDetails > #phone{
+    text-decoration: none;
+}
+
