@@ -27,6 +27,7 @@ h1 {
 }
 
 #content{
+    display: block;
     margin: auto;
     align-self: center;
     max-width: 80%;
